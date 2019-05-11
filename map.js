@@ -46,7 +46,7 @@ $(document).ready(function() {
   //   }
 
     // Use AJAX function to find all available bicyles in Lyon and my apiKey (created at JCDecaux website)
-    // /!\ New-fashioned way.
+    // /!\ Jquery way.
     $.ajax({
         url: 'https://api.jcdecaux.com/vls/v1/stations?contract=Lyon&apiKey=fddce93ac78059acfd05d7fa53fcf4d294be3722',
         dataType: 'json',
